@@ -52,7 +52,10 @@ To Remove the last commit and keep the file
 git reset HEAD~1
 
 If you don't want changes
-git restore "Funda Of Web Tech/Readme.txt"
+git restore "BranchName"
+
+If you want to delete a branch
+git branch -d BranchName
 
 To Clone
 git clone https://github.com/AryanTripathi2006/WebD-Journey.git
