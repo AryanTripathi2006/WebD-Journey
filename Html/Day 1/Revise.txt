@@ -1,0 +1,23 @@
+<h1></h1>
+<h2></h2>
+<h3></h3>
+<h4></h4>
+<h5></h5>
+<h6></h6>
+
+These are all head tags which are used for headings
+from <h1> ---> <h6> font size gets decreases
+
+<p> </p>     This is a paragrapgh tag in which certain paragraphs are written
+<br />       This is self closing tag used to break the line.
+<hr />       This is also a self closing tag used to create a horizontal line.
+
+<b> </b>              It's a bold tag which bolds ay words or staement within it.
+<Strong> </strong>    Works the same way as bold tag.
+<i> </i>              changes to italics font.
+<em> </em>            same as bold tags.
+<u> </u>              used to underline a statement within it.
+<mark> </mark>       highlights the texts.
+
+<sup> </sup>      supescript used to make something to the power.
+<sub> </sub>      subscript used to make base of something.
