@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists in HTML</title>
+</head>
+<body>
+
+    <h5>Unordered List</h5>
+    <!-- UL: Unordered List -->
+        <!-- li: List Items -->
+
+        <!-- type: dics(default), cricle,square, none -->
+     <ul type="dics">
+         <li>English</li>
+         <li>Maths</li>
+         <li>Physics</li>
+     </ul>
+     <ul type="circle">
+         <li>English</li>
+         <li>Maths</li>
+         <li>Physics</li>
+     </ul>
+
+     <ul type="square">
+         <li>English</li>
+         <li>Maths</li>
+         <li>Physics</li>
+     </ul>
+
+     <ul type="none">
+         <li>English</li>
+         <li>Maths</li>
+         <li>Physics</li>
+     </ul>
+
+    <h5>Ordered List</h5>
+     <!-- OL: Ordered List -->
+      <ol>
+        <li>English</li>
+        <ol type="i">                                      <!--ol>li*5-->
+            <li>Parts of speech</li>
+            <li>Grammer</li>
+            <li>Sentences</li>
+            <li>Words</li>
+            <ul>
+                <li>Dummy1</li>
+                <li>Dummy2</li>
+            </ul>
+            <li>Contents</li>
+        </ol>
+        <li>Maths</li>
+        <li>Physics</li>
+      </ol>
+
+      <ol reversed="true">
+        <li>English</li>
+        <li>Maths</li>
+        <li>Physics</li>
+      </ol>
+
+      <ol start="100">
+        <li>English</li>
+        <li>Maths</li>
+        <li>Physics</li>
+      </ol>
+
+    <h6>Types</h6>
+      <!-- type: 1(default) -->
+      <ol start="1" type="1">
+        <li>English</li>
+        <li>Maths</li>
+        <li>Physics</li>
+      </ol>
+
+      <!-- type: a -->
+      <ol start="1" type="a">
+        <li>English</li>
+        <li>Maths</li>
+        <li>Physics</li>
+      </ol>
+
+      <!-- type: A -->
+      <ol start="1" type="A">
+        <li>English</li>
+        <li>Maths</li>
+        <li>Physics</li>
+      </ol>
+
+      <!-- type: i -->
+      <ol start="1" type="i">
+        <li>English</li>
+        <li>Maths</li>
+        <li>Physics</li>
+      </ol>
+
+      <!-- type: I -->
+      <ol start="8" type="I" reversed="true">
+        <li>English</li>
+        <li>Maths</li>
+        <li>Physics</li>
+      </ol>
+
+      <h6>Definition List</h6>
+      <!-- DL: Definition List -->
+       <dl>
+        <!-- dt: definition term -->
+         <dt>html:</dt>
+        <!-- dd: definition descriptiion -->
+         <dd>Hyper Text Markup Lannguage</dd>
+       </dl>
+
+       <dt>CSS:</dt>
+       <dd>Cascading Style Sheets</dd>
+
+       <dt>JS:</dt>
+       <dd>JavaScript</dd>
+</body>
+</html>
