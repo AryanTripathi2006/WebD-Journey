@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <h2>Forms in HTML:</h2>
+    <form action="">
+        <label for="fname">First name:</label>
+        <input id="fname" type="text" minlength="2" maxlength="10" value="" required placeholder="Enter your first name"/>
+
+        <label for="mname">Middle name:</label>
+        <input id="mname" type="text" value="kr." placeholder="Enter your middle name" disabled/>
+
+        <label for="lname">Last name:</label>
+        <input id="lname" type="text" minlength="2" maxlength="10" value="" placeholder="Enter your last name"/>
+        <br><br>
+        <label for="age">Age:</label>
+        <input id="age" type="number" />
+
+        <br><br>
+        <label for="email" >E-mail:</label>
+        <input id="email" placeholder="abc@gmail.com" type="email" />
+
+        <br><br>
+        <label for="">Date:</label>
+        <input type="date" />
+
+        <br><br>
+        <label for="">Password:</label>
+        <input placeholder="password" type="password">
+
+        <p>Enter your shirt size:</p>
+        <input type="radio" name="shirtsize" id="small" value="small"><label for="small">S</label>
+        <input type="radio" name="shirtsize" id="medium" value="medium" checked><label for="medium">M</label>
+        <input type="radio" name="shirtsize" id="large" value="large"><label for="large">L</label>
+        <input type="radio" name="shirtsize" id="extra large" value="extra large"><label for="extra large">XL</label>
+
+        <br><br>
+        <p>Select your known languages:</p>
+        <input type="checkbox" name="lang" id="Hindi" value="Hindi"><label for="Hindi">Hindi</label>
+        <input type="checkbox" name="lang" id="English" value="English" checked><label for="English">English</label>
+        <input type="checkbox" name="lang" id="Japanese" value="Japanese"><label for="Japanese">Japanese</label>
+        <input type="checkbox" name="lang" id="Chinese" value="Chinese"><label for="Chinese">Chinese</label>
+
+
+        <br><br>
+        <label for="clr">Please select the color for your shirt:</label>
+        <input type="color" id="clr"/>
+
+        <br><br>
+        <label for="paymentoption">Plz select a payment option</label>
+        <select name="payment" id="paymentoption">
+            <option value=""></option>
+            <option value="Paytm">Paytm</option>
+            <option value="PhonePe">PhonePe</option>
+            <option value="gPay">gPay</option>
+            <option value="UPI">UPI</option>
+            <option value="cod">COD</option>
+        </select>
+
+        <br><br>
+        <label for="cmts">Plz provide us your valuable feedback:</label>
+        <!-- <input type="text"> -->
+         <textarea name="" id="cmts" rows="10" cols="80" placeholder="Enter your feedback here"></textarea>
+
+         <br><br>
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+</html>
